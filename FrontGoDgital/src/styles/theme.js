@@ -1,0 +1,63 @@
+﻿export const synviaTheme = {
+  brand: {
+    name: "Synvia",
+    tagline: "Onde estrutura encontra fluidez.",
+    description: "Ecossistema modular que combina engenharia precisa e experiências fluidas.",
+  },
+  colors: {
+    midnight: "#0E1326",
+    spaceCadet: "#141B41",
+    deepIndigo: "#1F2F59",
+    steelBlue: "#347FC4",
+    iceBlue: "#E4EDF9",
+    snow: "#FBF5F3",
+    alabaster: "#F9F7FF",
+    surface: "#FFFFFF",
+    surfaceAlt: "#EEF2F8",
+    border: "rgba(20, 27, 65, 0.12)",
+    textPrimary: "#1B2440",
+    textSecondary: "#3E4A6B",
+    textMuted: "#7A819A",
+    accentPrimary: "#347FC4",
+    accentSecondary: "#5BB5A2",
+    accentHighlight: "#8EC2FF",
+    focusRing: "rgba(52, 127, 196, 0.35)",
+    success: "#4BBF78",
+    warning: "#F4B740",
+    danger: "#DA5C5C",
+    shadowSoft: "rgba(20, 27, 65, 0.08)",
+    shadowMedium: "0 16px 40px rgba(20, 27, 65, 0.12)",
+    gradientBackground: "linear-gradient(135deg, #0E1326 0%, #1F2F59 45%, #347FC4 100%)",
+    gradientCard: "linear-gradient(135deg, rgba(52, 127, 196, 0.85), rgba(35, 46, 90, 0.9))",
+    gradientAccent: "linear-gradient(120deg, #5BB5A2, #347FC4)",
+  },
+  typography: {
+    primary: "'Satoshi', 'Inter', 'Helvetica Neue', Arial, sans-serif",
+    secondary: "'Neue Montreal', 'Inter', 'Helvetica Neue', Arial, sans-serif",
+    mono: "'IBM Plex Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace",
+  },
+  breakpoints: {
+    mobile: "768px",
+    tablet: "1024px",
+    desktop: "1280px",
+  },
+  radii: {
+    xs: "4px",
+    sm: "8px",
+    md: "14px",
+    lg: "20px",
+    pill: "9999px",
+  },
+  shadows: {
+    xs: "0 2px 6px rgba(20, 27, 65, 0.07)",
+    sm: "0 6px 16px rgba(20, 27, 65, 0.1)",
+    md: "0 12px 32px rgba(20, 27, 65, 0.12)",
+    lg: "0 20px 56px rgba(20, 27, 65, 0.16)",
+  },
+  transitions: {
+    base: "all 0.25s ease",
+    fast: "all 0.15s ease",
+  },
+}
+
+export default synviaTheme
