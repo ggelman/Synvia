@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.synvia.core.SynviaCoreApplicationTests" time="24.024" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\projects\FIAP\Fase7\Santa-Marcelina\synvia-core\target\test-classes;C:\projects\FIAP\Fase7\Santa-Marcelina\synvia-core\target\classes;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.5.3\spring-boot-starter-data-jpa-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter\3.5.3\spring-boot-starter-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot\3.5.3\spring-boot-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.5.3\spring-boot-autoconfigure-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.5.3\spring-boot-starter-logging-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.24.3\log4j-to-slf4j-2.24.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\slf4j\jul-to-slf4j\2.0.17\jul-to-slf4j-2.0.17.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\yaml\snakeyaml\2.4\snakeyaml-2.4.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.5.3\spring-boot-starter-jdbc-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\zaxxer\HikariCP\6.3.0\HikariCP-6.3.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-jdbc\6.2.8\spring-jdbc-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\hibernate\orm\hibernate-core\6.6.18.Final\hibernate-core-6.6.18.Final.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\jboss\logging\jboss-logging\3.6.1.Final\jboss-logging-3.6.1.Final.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\hibernate\common\hibernate-commons-annotations\7.0.3.Final\hibernate-commons-annotations-7.0.3.Final.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\smallrye\jandex\3.2.0\jandex-3.2.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\data\spring-data-jpa\3.5.1\spring-data-jpa-3.5.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\data\spring-data-commons\3.5.1\spring-data-commons-3.5.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-orm\6.2.8\spring-orm-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-context\6.2.8\spring-context-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-tx\6.2.8\spring-tx-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-beans\6.2.8\spring-beans-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-aspects\6.2.8\spring-aspects-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\aspectj\aspectjweaver\1.9.24\aspectjweaver-1.9.24.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.5.3\spring-boot-starter-web-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.5.3\spring-boot-starter-json-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.19.1\jackson-datatype-jdk8-2.19.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.19.1\jackson-datatype-jsr310-2.19.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.19.1\jackson-module-parameter-names-2.19.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.5.3\spring-boot-starter-tomcat-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.42\tomcat-embed-core-10.1.42.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.42\tomcat-embed-websocket-10.1.42.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-web\6.2.8\spring-web-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-webmvc\6.2.8\spring-webmvc-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-expression\6.2.8\spring-expression-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter-cache\3.5.3\spring-boot-starter-cache-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-context-support\6.2.8\spring-context-support-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.5.3\spring-boot-starter-security-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-aop\6.2.8\spring-aop-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\security\spring-security-config\6.5.1\spring-security-config-6.5.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\security\spring-security-core\6.5.1\spring-security-core-6.5.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\security\spring-security-crypto\6.5.1\spring-security-crypto-6.5.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\security\spring-security-web\6.5.1\spring-security-web-6.5.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter-actuator\3.5.3\spring-boot-starter-actuator-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-actuator-autoconfigure\3.5.3\spring-boot-actuator-autoconfigure-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-actuator\3.5.3\spring-boot-actuator-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\micrometer\micrometer-observation\1.15.1\micrometer-observation-1.15.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\micrometer\micrometer-commons\1.15.1\micrometer-commons-1.15.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\micrometer\micrometer-jakarta9\1.15.1\micrometer-jakarta9-1.15.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.5.3\spring-boot-starter-validation-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.42\tomcat-embed-el-10.1.42.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.2.Final\hibernate-validator-8.0.2.Final.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\jsonwebtoken\jjwt-api\0.11.5\jjwt-api-0.11.5.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\jsonwebtoken\jjwt-impl\0.11.5\jjwt-impl-0.11.5.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\jsonwebtoken\jjwt-jackson\0.11.5\jjwt-jackson-0.11.5.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.1\jackson-databind-2.19.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.1\jackson-annotations-2.19.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.1\jackson-core-2.19.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\github\vladimir-bukhtoyarov\bucket4j-core\7.6.0\bucket4j-core-7.6.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\github\vladimir-bukhtoyarov\bucket4j-caffeine\7.6.0\bucket4j-caffeine-7.6.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\github\ben-manes\caffeine\caffeine\3.2.1\caffeine-3.2.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\micrometer\micrometer-tracing-bridge-otel\1.5.1\micrometer-tracing-bridge-otel-1.5.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\micrometer\micrometer-tracing\1.5.1\micrometer-tracing-1.5.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\micrometer\context-propagation\1.1.3\context-propagation-1.1.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-api\1.49.0\opentelemetry-api-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-context\1.49.0\opentelemetry-context-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.32.0\opentelemetry-semconv-1.32.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.49.0\opentelemetry-sdk-common-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.49.0\opentelemetry-sdk-trace-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.49.0\opentelemetry-sdk-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-extension-trace-propagators\1.49.0\opentelemetry-extension-trace-propagators-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\micrometer\micrometer-registry-otlp\1.15.1\micrometer-registry-otlp-1.15.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\micrometer\micrometer-core\1.15.1\micrometer-core-1.15.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.2\HdrHistogram-2.2.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\proto\opentelemetry-proto\1.5.0-alpha\opentelemetry-proto-1.5.0-alpha.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\google\protobuf\protobuf-java\4.28.3\protobuf-java-4.28.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-exporter-otlp\1.43.0\opentelemetry-exporter-otlp-1.43.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.49.0\opentelemetry-sdk-metrics-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.49.0\opentelemetry-sdk-logs-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-exporter-otlp-common\1.49.0\opentelemetry-exporter-otlp-common-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.49.0\opentelemetry-exporter-common-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-exporter-sender-okhttp\1.49.0\opentelemetry-exporter-sender-okhttp-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\squareup\okhttp3\okhttp\4.12.0\okhttp-4.12.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\squareup\okio\okio\3.6.0\okio-3.6.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\squareup\okio\okio-jvm\3.6.0\okio-jvm-3.6.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.9.25\kotlin-stdlib-common-1.9.25.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.9.25\kotlin-stdlib-jdk8-1.9.25.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.9.25\kotlin-stdlib-1.9.25.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.9.25\kotlin-stdlib-jdk7-1.9.25.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.49.0\opentelemetry-sdk-extension-autoconfigure-spi-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\mysql\mysql-connector-j\9.2.0\mysql-connector-j-9.2.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.5.3\spring-boot-starter-test-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-test\3.5.3\spring-boot-test-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.5.3\spring-boot-test-autoconfigure-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\net\minidev\json-smart\2.5.2\json-smart-2.5.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\net\minidev\accessors-smart\2.5.2\accessors-smart-2.5.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\ow2\asm\asm\9.7.1\asm-9.7.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\assertj\assertj-core\3.27.3\assertj-core-3.27.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\awaitility\awaitility\4.2.2\awaitility-4.2.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\junit\jupiter\junit-jupiter\5.12.2\junit-jupiter-5.12.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.12.2\junit-jupiter-api-5.12.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\junit\platform\junit-platform-commons\1.12.2\junit-platform-commons-1.12.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.12.2\junit-jupiter-params-5.12.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.12.2\junit-jupiter-engine-5.12.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\junit\platform\junit-platform-engine\1.12.2\junit-platform-engine-1.12.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\mockito\mockito-core\5.17.0\mockito-core-5.17.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.6\byte-buddy-agent-1.17.6.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\mockito\mockito-junit-jupiter\5.17.0\mockito-junit-jupiter-5.17.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-core\6.2.8\spring-core-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-jcl\6.2.8\spring-jcl-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-test\6.2.8\spring-test-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\xmlunit\xmlunit-core\2.10.2\xmlunit-core-2.10.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\projectlombok\lombok\1.18.38\lombok-1.18.38.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="org.jboss.logging.provider" value="slf4j"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="APPLICATION_NAME" value="synvia-core"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
+    <property name="sun.java.command" value="C:\Users\GiuliaHelenaGelmanFl\AppData\Local\Temp\surefire3676250339968110323\surefirebooter-20251022233226556_3.jar C:\Users\GiuliaHelenaGelmanFl\AppData\Local\Temp\surefire3676250339968110323 2025-10-22T23-32-26_159-jvmRun1 surefire-20251022233226556_1tmp surefire_0-20251022233226556_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\projects\FIAP\Fase7\Santa-Marcelina\synvia-core\target\test-classes;C:\projects\FIAP\Fase7\Santa-Marcelina\synvia-core\target\classes;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.5.3\spring-boot-starter-data-jpa-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter\3.5.3\spring-boot-starter-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot\3.5.3\spring-boot-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.5.3\spring-boot-autoconfigure-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.5.3\spring-boot-starter-logging-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.24.3\log4j-to-slf4j-2.24.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\slf4j\jul-to-slf4j\2.0.17\jul-to-slf4j-2.0.17.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\yaml\snakeyaml\2.4\snakeyaml-2.4.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.5.3\spring-boot-starter-jdbc-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\zaxxer\HikariCP\6.3.0\HikariCP-6.3.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-jdbc\6.2.8\spring-jdbc-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\hibernate\orm\hibernate-core\6.6.18.Final\hibernate-core-6.6.18.Final.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\jboss\logging\jboss-logging\3.6.1.Final\jboss-logging-3.6.1.Final.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\hibernate\common\hibernate-commons-annotations\7.0.3.Final\hibernate-commons-annotations-7.0.3.Final.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\smallrye\jandex\3.2.0\jandex-3.2.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\data\spring-data-jpa\3.5.1\spring-data-jpa-3.5.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\data\spring-data-commons\3.5.1\spring-data-commons-3.5.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-orm\6.2.8\spring-orm-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-context\6.2.8\spring-context-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-tx\6.2.8\spring-tx-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-beans\6.2.8\spring-beans-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-aspects\6.2.8\spring-aspects-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\aspectj\aspectjweaver\1.9.24\aspectjweaver-1.9.24.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.5.3\spring-boot-starter-web-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.5.3\spring-boot-starter-json-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.19.1\jackson-datatype-jdk8-2.19.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.19.1\jackson-datatype-jsr310-2.19.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.19.1\jackson-module-parameter-names-2.19.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.5.3\spring-boot-starter-tomcat-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.42\tomcat-embed-core-10.1.42.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.42\tomcat-embed-websocket-10.1.42.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-web\6.2.8\spring-web-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-webmvc\6.2.8\spring-webmvc-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-expression\6.2.8\spring-expression-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter-cache\3.5.3\spring-boot-starter-cache-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-context-support\6.2.8\spring-context-support-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.5.3\spring-boot-starter-security-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-aop\6.2.8\spring-aop-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\security\spring-security-config\6.5.1\spring-security-config-6.5.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\security\spring-security-core\6.5.1\spring-security-core-6.5.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\security\spring-security-crypto\6.5.1\spring-security-crypto-6.5.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\security\spring-security-web\6.5.1\spring-security-web-6.5.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter-actuator\3.5.3\spring-boot-starter-actuator-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-actuator-autoconfigure\3.5.3\spring-boot-actuator-autoconfigure-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-actuator\3.5.3\spring-boot-actuator-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\micrometer\micrometer-observation\1.15.1\micrometer-observation-1.15.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\micrometer\micrometer-commons\1.15.1\micrometer-commons-1.15.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\micrometer\micrometer-jakarta9\1.15.1\micrometer-jakarta9-1.15.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.5.3\spring-boot-starter-validation-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.42\tomcat-embed-el-10.1.42.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.2.Final\hibernate-validator-8.0.2.Final.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\jsonwebtoken\jjwt-api\0.11.5\jjwt-api-0.11.5.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\jsonwebtoken\jjwt-impl\0.11.5\jjwt-impl-0.11.5.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\jsonwebtoken\jjwt-jackson\0.11.5\jjwt-jackson-0.11.5.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.1\jackson-databind-2.19.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.1\jackson-annotations-2.19.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.1\jackson-core-2.19.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\github\vladimir-bukhtoyarov\bucket4j-core\7.6.0\bucket4j-core-7.6.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\github\vladimir-bukhtoyarov\bucket4j-caffeine\7.6.0\bucket4j-caffeine-7.6.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\github\ben-manes\caffeine\caffeine\3.2.1\caffeine-3.2.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\micrometer\micrometer-tracing-bridge-otel\1.5.1\micrometer-tracing-bridge-otel-1.5.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\micrometer\micrometer-tracing\1.5.1\micrometer-tracing-1.5.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\micrometer\context-propagation\1.1.3\context-propagation-1.1.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-api\1.49.0\opentelemetry-api-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-context\1.49.0\opentelemetry-context-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.32.0\opentelemetry-semconv-1.32.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.49.0\opentelemetry-sdk-common-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.49.0\opentelemetry-sdk-trace-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.49.0\opentelemetry-sdk-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-extension-trace-propagators\1.49.0\opentelemetry-extension-trace-propagators-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\micrometer\micrometer-registry-otlp\1.15.1\micrometer-registry-otlp-1.15.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\micrometer\micrometer-core\1.15.1\micrometer-core-1.15.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.2\HdrHistogram-2.2.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\proto\opentelemetry-proto\1.5.0-alpha\opentelemetry-proto-1.5.0-alpha.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\google\protobuf\protobuf-java\4.28.3\protobuf-java-4.28.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-exporter-otlp\1.43.0\opentelemetry-exporter-otlp-1.43.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.49.0\opentelemetry-sdk-metrics-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.49.0\opentelemetry-sdk-logs-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-exporter-otlp-common\1.49.0\opentelemetry-exporter-otlp-common-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.49.0\opentelemetry-exporter-common-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-exporter-sender-okhttp\1.49.0\opentelemetry-exporter-sender-okhttp-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\squareup\okhttp3\okhttp\4.12.0\okhttp-4.12.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\squareup\okio\okio\3.6.0\okio-3.6.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\squareup\okio\okio-jvm\3.6.0\okio-jvm-3.6.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.9.25\kotlin-stdlib-common-1.9.25.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.9.25\kotlin-stdlib-jdk8-1.9.25.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.9.25\kotlin-stdlib-1.9.25.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.9.25\kotlin-stdlib-jdk7-1.9.25.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.49.0\opentelemetry-sdk-extension-autoconfigure-spi-1.49.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\mysql\mysql-connector-j\9.2.0\mysql-connector-j-9.2.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.5.3\spring-boot-starter-test-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-test\3.5.3\spring-boot-test-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.5.3\spring-boot-test-autoconfigure-3.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\net\minidev\json-smart\2.5.2\json-smart-2.5.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\net\minidev\accessors-smart\2.5.2\accessors-smart-2.5.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\ow2\asm\asm\9.7.1\asm-9.7.1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\assertj\assertj-core\3.27.3\assertj-core-3.27.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\awaitility\awaitility\4.2.2\awaitility-4.2.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\junit\jupiter\junit-jupiter\5.12.2\junit-jupiter-5.12.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.12.2\junit-jupiter-api-5.12.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\junit\platform\junit-platform-commons\1.12.2\junit-platform-commons-1.12.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.12.2\junit-jupiter-params-5.12.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.12.2\junit-jupiter-engine-5.12.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\junit\platform\junit-platform-engine\1.12.2\junit-platform-engine-1.12.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\mockito\mockito-core\5.17.0\mockito-core-5.17.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.6\byte-buddy-agent-1.17.6.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\mockito\mockito-junit-jupiter\5.17.0\mockito-junit-jupiter-5.17.0.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-core\6.2.8\spring-core-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-jcl\6.2.8\spring-jcl-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\springframework\spring-test\6.2.8\spring-test-6.2.8.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\xmlunit\xmlunit-core\2.10.2\xmlunit-core-2.10.2.jar;C:\Users\GiuliaHelenaGelmanFl\.m2\repository\org\projectlombok\lombok\1.18.38\lombok-1.18.38.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\GiuliaHelenaGelmanFl"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-24"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\projects\FIAP\Fase7\Santa-Marcelina\synvia-core"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="FILE_LOG_CHARSET" value="UTF-8"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Users\GiuliaHelenaGelmanFl\AppData\Local\Temp\surefire3676250339968110323\surefirebooter-20251022233226556_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.1+9-30"/>
+    <property name="LOG_CORRELATION_PATTERN" value="%correlationId"/>
+    <property name="user.name" value="GiuliaHelenaGelmanFl"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\GiuliaHelenaGelmanFl\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\GIULIA~1\AppData\Local\Temp\"/>
+    <property name="com.zaxxer.hikari.pool_number" value="1"/>
+    <property name="java.version" value="24.0.1"/>
+    <property name="user.dir" value="C:\projects\FIAP\Fase7\Santa-Marcelina\synvia-core"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="35160"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="CONSOLE_LOG_CHARSET" value="windows-1252"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-24\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\GIULIA~1\AppData\Local\Temp\.tmpDKEjNy;C:\Users\GiuliaHelenaGelmanFl\bin;C:\Users\GiuliaHelenaGelmanFl\AppData\Local\Programs\Git\mingw64\bin;C:\Users\GiuliaHelenaGelmanFl\AppData\Local\Programs\Git\usr\local\bin;C:\Users\GiuliaHelenaGelmanFl\AppData\Local\Programs\Git\usr\bin;C:\Users\GiuliaHelenaGelmanFl\AppData\Local\Programs\Git\usr\bin;C:\Users\GiuliaHelenaGelmanFl\AppData\Local\Programs\Git\mingw64\bin;C:\Users\GiuliaHelenaGelmanFl\AppData\Local\Programs\Git\usr\bin;C:\Users\GiuliaHelenaGelmanFl\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\dotnet;C:\Users\GiuliaHelenaGelmanFl\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\GiuliaHelenaGelmanFl\apache-maven-3.9.10\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\GiuliaHelenaGelmanFl\scoop\shims;C:\Users\GiuliaHelenaGelmanFl\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\GiuliaHelenaGelmanFl\AppData\Local\Programs\Python\Python313;C:\Users\GiuliaHelenaGelmanFl\AppData\Local\Microsoft\WindowsApps;C:\Users\GiuliaHelenaGelmanFl\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\GiuliaHelenaGelmanFl\.dotnet\tools;C:\Users\GiuliaHelenaGelmanFl\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\GiuliaHelenaGelmanFl\AppData\Local\Programs\Git\cmd;C:\Users\GiuliaHelenaGelmanFl\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\GiuliaHelenaGelmanFl\AppData\Local\Programs\Git\usr\bin\vendor_perl;C:\Users\GiuliaHelenaGelmanFl\AppData\Local\Programs\Git\usr\bin\core_perl;c:\Users\GiuliaHelenaGelmanFl\.vscode\extensions\openai.chatgpt-0.4.21-win32-x64\bin\windows-x86_64;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24.0.1+9-30"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+    <property name="LOGGED_APPLICATION_NAME" value="[synvia-core] "/>
+  </properties>
+  <testcase name="contextLoads" classname="com.synvia.core.SynviaCoreApplicationTests" time="0.882">
+    <system-out><![CDATA[23:32:29.257 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.synvia.core.SynviaCoreApplicationTests]: SynviaCoreApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:32:29.656 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.synvia.core.SynviaCoreApplication for test class com.synvia.core.SynviaCoreApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.3)
+
+2025-10-22T23:32:30.987-03:00  INFO 35160 --- [synvia-core] [           main] [                                                 ] c.s.core.SynviaCoreApplicationTests      : Starting SynviaCoreApplicationTests using Java 24.0.1 with PID 35160 (started by GiuliaHelenaGelmanFl in C:\projects\FIAP\Fase7\Santa-Marcelina\synvia-core)
+2025-10-22T23:32:30.992-03:00  INFO 35160 --- [synvia-core] [           main] [                                                 ] c.s.core.SynviaCoreApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-10-22T23:32:34.491-03:00  INFO 35160 --- [synvia-core] [           main] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-22T23:32:34.848-03:00  INFO 35160 --- [synvia-core] [           main] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 298 ms. Found 20 JPA repository interfaces.
+2025-10-22T23:32:36.792-03:00  INFO 35160 --- [synvia-core] [           main] [                                                 ] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-22T23:32:37.016-03:00  INFO 35160 --- [synvia-core] [           main] [                                                 ] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-10-22T23:32:37.117-03:00  INFO 35160 --- [synvia-core] [           main] [                                                 ] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-22T23:32:37.785-03:00  INFO 35160 --- [synvia-core] [           main] [                                                 ] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-22T23:32:37.838-03:00  INFO 35160 --- [synvia-core] [           main] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-22T23:32:39.310-03:00  INFO 35160 --- [synvia-core] [           main] [                                                 ] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e2b512b
+2025-10-22T23:32:39.312-03:00  INFO 35160 --- [synvia-core] [           main] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-22T23:32:39.627-03:00  WARN 35160 --- [synvia-core] [           main] [                                                 ] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-22T23:32:39.672-03:00  INFO 35160 --- [synvia-core] [           main] [                                                 ] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-22T23:32:42.209-03:00  INFO 35160 --- [synvia-core] [           main] [                                                 ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: 
+    create table audit_logs_lgpd (
+        id bigint not null auto_increment,
+        acao varchar(100) not null,
+        dados_antes JSON,
+        dados_depois JSON,
+        detalhes TEXT,
+        ip_origem varchar(45),
+        sessao_id varchar(100),
+        timestamp datetime(6) not null,
+        user_agent varchar(500),
+        usuario_id bigint,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table auditoria_logs (
+        id bigint not null auto_increment,
+        acao varchar(255) not null,
+        detalhes varchar(500),
+        timestamp datetime(6) not null,
+        usuario varchar(255) not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table backup_metadata (
+        id bigint not null auto_increment,
+        data_criacao datetime(6) not null,
+        nome_arquivo varchar(255) not null,
+        tamanho varchar(255),
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table categoria (
+        id integer not null auto_increment,
+        cor varchar(255),
+        descricao varchar(255),
+        nome varchar(255) not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table cliente (
+        id_cliente bigint not null auto_increment,
+        consentimento_lgpd bit not null,
+        cpf varchar(11) not null,
+        data_nascimento date,
+        email varchar(255),
+        nome varchar(255) not null,
+        observacoes varchar(255),
+        participa_fidelidade bit not null,
+        senha varchar(255) not null,
+        telefone varchar(255),
+        primary key (id_cliente)
+    ) engine=InnoDB
+Hibernate: 
+    create table configuracoes (
+        chave varchar(255) not null,
+        valor varchar(255),
+        primary key (chave)
+    ) engine=InnoDB
+Hibernate: 
+    create table consentimentos_lgpd (
+        id bigint not null auto_increment,
+        consentimento_dado bit not null,
+        data_consentimento datetime(6) not null,
+        data_revogacao datetime(6),
+        detalhes_consentimento varchar(500),
+        finalidade enum ('ANALISES_PERSONALIZADAS','COMPARTILHAMENTO_TERCEIROS','COOKIES_ANALYTICS','IA_PREDICOES','MARKETING_EMAIL','MARKETING_SMS','SERVICO_ESSENCIAL') not null,
+        ip_origem varchar(45),
+        motivo_revogacao varchar(500),
+        revogado bit not null,
+        usuario_id bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table fidelidade (
+        id bigint not null,
+        data_atualizacao date not null,
+        pontos integer not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table item_pedido (
+        id bigint not null auto_increment,
+        preco_unitario decimal(10,2),
+        quantidade integer not null,
+        id_pedido bigint not null,
+        id_produto bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table item_venda_cliente (
+        id_item bigint not null auto_increment,
+        preco_total decimal(10,2) not null,
+        preco_unitario decimal(10,2) not null,
+        quantidade integer not null,
+        produto_id bigint not null,
+        venda_id bigint not null,
+        primary key (id_item)
+    ) engine=InnoDB
+Hibernate: 
+    create table loja (
+        id integer not null auto_increment,
+        ativa bit not null,
+        cnpj varchar(255),
+        email varchar(255),
+        endereco varchar(255),
+        faturamento float(53),
+        nome varchar(255) not null,
+        responsavel varchar(255),
+        telefone varchar(255),
+        vendas integer,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table metas_financeiras (
+        id bigint not null auto_increment,
+        data_fim date not null,
+        data_inicio date not null,
+        descricao varchar(255) not null,
+        valor_alvo decimal(10,2) not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table pedido (
+        id_pedido bigint not null auto_increment,
+        canal varchar(255),
+        data datetime(6),
+        status varchar(255),
+        id_cliente bigint,
+        primary key (id_pedido)
+    ) engine=InnoDB
+Hibernate: 
+    create table produto (
+        id_produto bigint not null auto_increment,
+        descricao varchar(255),
+        descricao_cardapio varchar(500),
+        destaque bit,
+        imagem_url varchar(255),
+        nome varchar(255) not null,
+        preco decimal(10,2),
+        qtd_atual integer,
+        qtd_minima integer,
+        visivel_cardapio bit,
+        categoria_id integer,
+        primary key (id_produto)
+    ) engine=InnoDB
+Hibernate: 
+    create table refresh_token (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        expires_at datetime(6) not null,
+        replaced_by_token_id varchar(64),
+        revoked bit not null,
+        token_hash varchar(255) not null,
+        token_id varchar(64) not null,
+        usuario_id bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table solicitacoes_lgpd (
+        id bigint not null auto_increment,
+        data_conclusao datetime(6),
+        data_solicitacao datetime(6) not null,
+        ip_origem varchar(45),
+        motivo TEXT,
+        protocolo varchar(50) not null,
+        responsavel_analise varchar(100),
+        resposta TEXT,
+        status enum ('APROVADA','CONCLUIDA','EM_ANALISE','PENDENTE','REJEITADA') not null,
+        tipo_solicitacao enum ('ACESSO','CORRECAO','EXCLUSAO','OPOSICAO','PORTABILIDADE') not null,
+        usuario_id bigint not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table transacao (
+        id bigint not null auto_increment,
+        data datetime(6),
+        descricao varchar(255),
+        tipo enum ('DESPESA','RECEITA'),
+        valor decimal(10,2),
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table usuario (
+        id bigint not null auto_increment,
+        ativo bit not null,
+        email varchar(255) not null,
+        last_mfa_enrollment datetime(6),
+        mfa_enabled bit,
+        mfa_secret varchar(160),
+        nome varchar(255) not null,
+        role varchar(255),
+        senha varchar(255) not null,
+        ultimo_acesso datetime(6),
+        webauthn_registered bit,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table venda (
+        id_venda bigint not null auto_increment,
+        data datetime(6),
+        metodo_pagamento varchar(255),
+        valor_total decimal(10,2),
+        id_pedido bigint,
+        primary key (id_venda)
+    ) engine=InnoDB
+Hibernate: 
+    create table venda_cliente (
+        id_venda bigint not null auto_increment,
+        data_venda datetime(6) not null,
+        forma_pagamento varchar(255) not null,
+        mesa_numero varchar(255),
+        observacoes varchar(255),
+        status_pedido varchar(255),
+        valor_total decimal(10,2) not null,
+        cliente_id bigint not null,
+        primary key (id_venda)
+    ) engine=InnoDB
+Hibernate: 
+    alter table backup_metadata 
+       drop index UKmyvnoa456ax0xtpcw4baqwmey
+Hibernate: 
+    alter table backup_metadata 
+       add constraint UKmyvnoa456ax0xtpcw4baqwmey unique (nome_arquivo)
+Hibernate: 
+    alter table categoria 
+       drop index UKprx5elpv558ah8pk8x18u56yc
+Hibernate: 
+    alter table categoria 
+       add constraint UKprx5elpv558ah8pk8x18u56yc unique (nome)
+Hibernate: 
+    alter table cliente 
+       drop index UKr1u8010d60num5vc8fp0q1j2a
+Hibernate: 
+    alter table cliente 
+       add constraint UKr1u8010d60num5vc8fp0q1j2a unique (cpf)
+Hibernate: 
+    alter table cliente 
+       drop index UKcmxo70m08n43599l3h0h07cc6
+Hibernate: 
+    alter table cliente 
+       add constraint UKcmxo70m08n43599l3h0h07cc6 unique (email)
+Hibernate: 
+    alter table produto 
+       drop index UKhdot1xprktyi4sf2onvllkmkd
+Hibernate: 
+    alter table produto 
+       add constraint UKhdot1xprktyi4sf2onvllkmkd unique (nome)
+Hibernate: 
+    alter table refresh_token 
+       drop index UKep06s0x3kup0ymju5ha8oqj87
+Hibernate: 
+    alter table refresh_token 
+       add constraint UKep06s0x3kup0ymju5ha8oqj87 unique (token_id)
+Hibernate: 
+    alter table solicitacoes_lgpd 
+       drop index UK282gecs5mhe1jgb8gr2m10435
+Hibernate: 
+    alter table solicitacoes_lgpd 
+       add constraint UK282gecs5mhe1jgb8gr2m10435 unique (protocolo)
+Hibernate: 
+    alter table venda 
+       drop index UKovn92xocoprrgow7gsnwbbf65
+Hibernate: 
+    alter table venda 
+       add constraint UKovn92xocoprrgow7gsnwbbf65 unique (id_pedido)
+Hibernate: 
+    alter table fidelidade 
+       add constraint FK9jirlubadxt617tamhf4vbryh 
+       foreign key (id) 
+       references cliente (id_cliente)
+Hibernate: 
+    alter table item_pedido 
+       add constraint FKnjghutiejefh2auj9bnpf9sp7 
+       foreign key (id_pedido) 
+       references pedido (id_pedido)
+Hibernate: 
+    alter table item_pedido 
+       add constraint FKnqncqw8pnv54kv0dct6mo2iei 
+       foreign key (id_produto) 
+       references produto (id_produto)
+Hibernate: 
+    alter table item_venda_cliente 
+       add constraint FKd8p9c5qepccrwns0xcx82bvkc 
+       foreign key (produto_id) 
+       references produto (id_produto)
+Hibernate: 
+    alter table item_venda_cliente 
+       add constraint FK7kfb1wr3w79kon4i8pt44np3f 
+       foreign key (venda_id) 
+       references venda_cliente (id_venda)
+Hibernate: 
+    alter table pedido 
+       add constraint FK9y4jnyp1hxqa386cnly0ay9uw 
+       foreign key (id_cliente) 
+       references cliente (id_cliente)
+Hibernate: 
+    alter table produto 
+       add constraint FKopu9jggwnamfv0c8k2ri3kx0a 
+       foreign key (categoria_id) 
+       references categoria (id)
+Hibernate: 
+    alter table refresh_token 
+       add constraint FKpr5fysa08n2o6i1rxjumfl89q 
+       foreign key (usuario_id) 
+       references usuario (id)
+Hibernate: 
+    alter table venda 
+       add constraint FKn0xruchc8vffxf4ytd15n31xi 
+       foreign key (id_pedido) 
+       references pedido (id_pedido)
+Hibernate: 
+    alter table venda_cliente 
+       add constraint FKbf7f0t4b79r0qpgqrg3grlp8k 
+       foreign key (cliente_id) 
+       references cliente (id_cliente)
+2025-10-22T23:32:44.544-03:00  INFO 35160 --- [synvia-core] [           main] [                                                 ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-22T23:32:45.713-03:00  INFO 35160 --- [synvia-core] [           main] [                                                 ] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-10-22T23:32:45.714-03:00  WARN 35160 --- [synvia-core] [           main] [                                                 ] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-10-22T23:32:45.913-03:00  INFO 35160 --- [synvia-core] [           main] [                                                 ] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-10-22T23:32:48.909-03:00  WARN 35160 --- [synvia-core] [           main] [                                                 ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-22T23:32:50.016-03:00  INFO 35160 --- [synvia-core] [           main] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2025-10-22T23:32:51.394-03:00  INFO 35160 --- [synvia-core] [           main] [                                                 ] c.s.core.SynviaCoreApplicationTests      : Started SynviaCoreApplicationTests in 21.27 seconds (process running for 24.103)
+Hibernate: 
+    select
+        count(*) 
+    from
+        usuario u1_0
+>>> BANCO DE USUÁRIOS VAZIO. CRIANDO USUÁRIO ADMIN PADRÃO...
+Hibernate: 
+    insert 
+    into
+        usuario
+        (ativo, email, last_mfa_enrollment, mfa_enabled, mfa_secret, nome, role, senha, ultimo_acesso, webauthn_registered) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+>>> USUÁRIO ADMIN CRIADO: admin@synvia.io / senha: admin123
+]]></system-out>
+    <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\GiuliaHelenaGelmanFl\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.6\byte-buddy-agent-1.17.6.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+  </testcase>
+</testsuite>
