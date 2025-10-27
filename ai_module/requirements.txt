@@ -1,0 +1,41 @@
+# Machine Learning e Análise de Dados
+pandas
+numpy
+prophet
+scikit-learn
+joblib
+
+# APIs e Serviços
+google-generativeai
+openai
+python-dotenv
+mysql-connector-python
+
+# Framework Web
+flask
+flask-cors
+flask-restx
+flask-limiter
+
+# Rate Limiting e Segurança
+slowapi
+
+# Cache e Performance
+redis>=6.4.0
+hiredis>=3.2.0
+
+# Monitoramento e Sistema
+psutil>=5.9.0
+
+# Tratamento de Erros e Retry Logic
+tenacity>=8.2.0
+backoff>=2.2.0
+
+# Serialização e JSON
+ujson>=5.8.0
+
+# Logging Estruturado
+structlog>=23.2.0
+
+# Documentação API
+flasgger>=0.9.5
