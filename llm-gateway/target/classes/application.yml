@@ -1,0 +1,30 @@
+server:
+  port: ${LLM_GATEWAY_PORT:8090}
+  ssl:
+    enabled: true
+    key-store: ${LLM_GATEWAY_KEYSTORE:classpath:tls/server.p12}
+    key-store-password: ${LLM_GATEWAY_KEYSTORE_PASSWORD:changeit}
+    key-store-type: ${LLM_GATEWAY_KEYSTORE_TYPE:PKCS12}
+    trust-store: ${LLM_GATEWAY_TRUSTSTORE:classpath:tls/truststore.p12}
+    trust-store-password: ${LLM_GATEWAY_TRUSTSTORE_PASSWORD:changeit}
+    trust-store-type: ${LLM_GATEWAY_TRUSTSTORE_TYPE:PKCS12}
+    client-auth: need
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  metrics:
+    export:
+      otlp:
+        enabled: true
+        endpoint: ${OTEL_EXPORTER_OTLP_METRICS_ENDPOINT:http://localhost:4318/v1/metrics}
+  tracing:
+    enabled: true
+    sampling:
+      probability: 1.0
+
+logging:
+  level:
+    br.com.godigital.llmgateway: INFO
